@@ -5,9 +5,9 @@ public class ListProducts implements Products {
     private List<Product> products = new ArrayList(); // Using this in place of an actual datebase
 
     public ListProducts() {
-        insert(new Product("hammer", 9.99));
-        insert(new Product("screwdriver", 9.99));
-        insert(new Product("drill", 19.99));
+        insert(new Product("Hammer", 9.99));
+        insert(new Product("Screwdriver", 9.99));
+        insert(new Product("Drill", 19.99));
     }
 
     public List<Product> all() {
